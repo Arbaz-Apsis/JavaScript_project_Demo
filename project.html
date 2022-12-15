@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./project.css">
+    <script src="./project.js" defer></script>
+    <title>Employee Details</title>
+</head>
+
+<body>
+    <header id="header">
+        <div class="container">
+            <h1 class="heading">Employee Details</h1>
+            <form class="main-div" action="post">
+                <div class="name">
+                    <label for="Username">Name</label>
+                    <input required type="text" name="Username" id="Username" placeholder="Type Here..">
+                </div>
+                <div class="eml">
+                    <label for="email">Email</label>
+                    <input required type="email" name="email" id="email" placeholder="Type Here..">
+                </div>
+                <div class="add">
+                    <label for="Username">Add</label>
+                    <input type="submit" value="Add Todo" class="todo-btn btn button">
+                </div>
+            </form>
+        </div>
+
+
+    </header>
+    <main>
+        <div class="table-container container">
+            <table border = "1" width = "100%" >
+                <thead>
+                   <tr class = "trow">
+                      <th>Name</th>
+                      <th>Email</th>
+                      <th>Action</th>
+                   </tr>
+                </thead>
+                
+                              
+                <tbody id="info-table">
+                 
+                </tbody>
+                
+            </table>
+        </div>
+    </main>
+
+
+</body>
+
+</html>
+
+

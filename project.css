@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+    /* outline: 1px solid; */
+}
+
+body{
+        font-family: 'Poppins', sans-serif;
+        /* background: url("./john-fowler-RsRTIofe0HE-unsplash.jpg"); */
+       background: #fff; 
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        height: 100vh;
+}
+
+#header{
+    /* min-height: 100vh; */
+
+    padding-bottom: 4em;
+}
+
+.heading{
+    position: relative;
+    /* min-height: 60vh; */
+    
+    color: black;
+    width: auto;
+    text-align: center;
+    padding: 2rem 2rem;
+    text-transform: capitalize;
+    /* background: #efefef; */
+    text-transform: uppercase;
+}
+
+.container{
+    max-width: 1200px;
+    margin: auto;
+    width: 90%;
+}
+
+.main-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 2rem;
+   
+}
+
+
+.name{
+    font-size: 2rem;
+    color: green;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    text-align: center;
+   
+}
+.eml{
+    font-size: 2rem;
+    color: green;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    text-align: center;
+}
+.add{
+    font-size: 2rem;
+    color: green;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    text-align: center;
+}
+
+input{
+    padding: 0.8rem;
+    font-size: 1rem;
+    font-weight: 400; 
+    background: none;
+}   
+
+.todo-btn{
+    padding: 0.8rem;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn{
+    display: inline-block;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background: #0898db;
+    color: white;
+}
+
+.btn:hover{
+    background: #4fa6cebd;
+}
+/* main */
+.table-container{
+}
+.table-container table{
+    margin: auto;
+    outline: 1px solid; 
+    border-collapse: collapse;
+    width: 100%;
+}
+.table-container table td,
+.table-container table th{
+    text-align: left;
+    border: 1px solid;
+    padding: .6em;
+}
+
+button{
+   width: 48%;
+   
+}
+
+
+
+/* .nav-items{
+    width: 80%;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    color: green;
+}
+.section-signup{
+    margin: 5rem auto;
+    text-align: center;
+    background-color: rgb(240,240,240);
+    border-radius: 10px;
+    padding: 1rem;
+   
+} 
+.signup-form{
+    max-width: 800px;
+    width: 90%;
+    margin: auto;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+} */
